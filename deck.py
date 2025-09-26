@@ -53,8 +53,8 @@ cards = Deck.make_deck()
 
 deck = Deck(cards)
 
-# dealt_card = deck.deal(51)
-# print(dealt_card[0])
+dealt_card = deck.deal(51)
+print(dealt_card[0])
 
 
 deck.show_all()
